@@ -31,7 +31,7 @@ The JavaScript Loader assumes the following:
 - You need to keep track of the ads you render on the page as you put your page together (i.e. server-side.) Keep that tally in variable 'adcounter' (see the ad handling part of the Quick Start below)
 - You need to keep track of the _JavaScript_ ads you render on the page as you put your page together (i.e. server-side.) Keep that tally in variable 'jsadcounter' _note: this number should be less or equal to adcounter_ (see the ad handling part of the Quick Start below)
 
-#### Important Flags
+### Important Flags
 
 - To load the unminified version of all JavaScript files, pass the following query string: ?jsflag=full
 - To load the debug version of all JavaScript files, pass the following query string: ?jsflag=debug
