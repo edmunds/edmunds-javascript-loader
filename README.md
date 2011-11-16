@@ -31,7 +31,7 @@ The JavaScript Loader assumes the following:
 - You need to keep track of the ads you render on the page as you put your page together (i.e. server-side.) Keep that tally in variable 'adcounter' (see the ad handling part of the Quick Start below)
 - You need to keep track of the _JavaScript_ ads you render on the page as you put your page together (i.e. server-side.) Keep that tally in variable 'jsadcounter' _note: this number should be less or equal to adcounter_ (see the ad handling part of the Quick Start below)
 
-# Important Flags
+#### Important Flags
 
 - To load the unminified version of all JavaScript files, pass the following query string: ?jsflag=full
 - To load the debug version of all JavaScript files, pass the following query string: ?jsflag=debug
@@ -65,7 +65,7 @@ Now that you have the necessary files on the page, you need to start using it. H
 	
 As you can see from the code above, we start by including JavaScript dependencies (don't worry about duplicate files. The Loader handles that for you.) Then we add the JavaScript snippet to be executed later at the priority indicated (here we set it to "high".) Available priorities are: high, normal and low.
 
-# iFrame Ads handling
+### iFrame Ads handling
 
 Handling iFrame ads is as easy as adding an empty iFrame tag on the page and setting its 'src' attribute via a JavaScript snippet:
 
@@ -91,7 +91,7 @@ Handling iFrame ads is as easy as adding an empty iFrame tag on the page and set
 	    }, 'low');
 	</script>
 
-# JavaScript Ads handling
+### JavaScript Ads handling
 
 _note: this is tested with DoubleClick ads ONLY. You need to verify implementation if you're using other ad networks_
 
