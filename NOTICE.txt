@@ -1,0 +1,7 @@
+=========================================================================
+==  NOTICE file corresponding to section 4(d) of the Apache License,   ==
+==  Version 2.0, for JavaScript Loader.                                ==
+=========================================================================
+
+JavaScript Loader
+Copyright © 2009-2011 Edmunds.com, Inc.

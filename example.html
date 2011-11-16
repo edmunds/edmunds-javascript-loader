@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    	<title>Edmunds JavaScript Loader in Action</title>
+		<script src="setup.js"></script>
+  </head>
+  <body>
+		<div id="sample"></div>
+		<script>
+			PAGESETUP.addControl(function() {
+				document.getElementById('sample').innerHTML += 'Hello world 1<br /><br />';
+			}, 'low');
+			PAGESETUP.addControl(function() {
+				document.getElementById('sample').innerHTML += 'Hello world 2<br /><br />';
+			});
+			PAGESETUP.addControl(function() {
+				document.getElementById('sample').innerHTML += 'Hello world 3<br /><br />';
+			}, 'high');
+		</script>
+		<script src="loader.js"></script>
+	</body>
+</html>
